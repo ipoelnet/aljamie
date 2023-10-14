@@ -1,7 +1,7 @@
 var app_main_;
 
 $(function () {
-	$.fn.app_main = function(opt){
+	$.fn.app = function(opt){
 		var opt= $.extend({
 		},opt),
 		that		= this,
